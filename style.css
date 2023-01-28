@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: url(pictures/engineer.jpg);
+    background-position:center ;
+    background-size:cover ;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between ;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none ;
+    padding: 12px;
+    display: inline-block;
+    position:relative ;
+    text-transform: uppercase;
+}
+.nav-links ul li a{
+    font-size: 13px;
+    color: rgb(32, 7, 23);
+    text-decoration: none;
+}
+.nav-links ul li::after{
+    content:'' ;
+    width:0% ;
+    height:2px ;
+    background-color: rgb(94, 85, 10);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+
+}
+.text-box{
+    width: 90%;
+    color:rgb(106, 7, 70) ;
+    top:40% ;
+    right:10% ;
+    position:absolute ;
+    transform: translate(-50,-50);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    color: aqua;
+}
+.text-box p{
+    margin:10px, 0, 40px ;
+    font-size:14px ;
+    color: #fff;
+}
+.button1{
+    display: inline-block;
+    text-decoration:none ;
+    border:1px solid ;
+    color:rgb(29, 3, 3) ;
+    padding:12px 34px ;
+    font-size :13px; 
+    background:transparent  ;
+    cursor: pointer;
+    position: relative;
+    
+}
+.button1:hover{
+    border: 1px solid blue;
+    transition: 1s;
+    background: blue;
+}
+.container{
+background:rgba(192, 211, 212, 0.5);
+display: flex;
+justify-content: space-between;
+padding: 40px;
+}
+.container img{
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.container h1{
+    margin-top: 80px;
+  text-align: center;  
+font-size: 80px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p{
+margin-left: 20px;
+margin-right: 60px;
+text-align: center;
+margin-left: 40px;
+padding: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section h1{
+text-align: center;
+margin-top: 40px;
+font-size: 80px;
+font-weight: bolder;
+}
+.section #box{
+float:left ;
+width: 18%;
+padding:15px;
+text-align: center;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #0d7d7d;
+    text-align: center;
+
+}
+.container dl{
+margin-left: 40px;
+}
+.container #bag{
+background: rgb(235, 126, 126);
+}
+.container #proj{
+float: right;
+margin-top: 40px;
+margin-right: 80px;
+text-align: left;
+}
+ #quote div{
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 80px;
+
+        
+}
+ .top{
+    height: 300px;
+    background: #cd72a4;
+    width: 100%;
+}
+#quote h1{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 110px;
+}
+ #quote input{
+    width: 200px;
+    height: 30px;
+    border-bottom: #000 2px solid;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 90px;
+}
+
+
+
+
+
